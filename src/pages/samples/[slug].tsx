@@ -32,6 +32,7 @@ export const pages = {
   ),
   particles: dynamic(() => import('../../sample/particles/main')),
   particles2: dynamic(() => import('../../sample/particles2/main')),
+  cornell: dynamic(() => import('../../sample/cornell/main')),
   gameOfLife: dynamic(() => import('../../sample/gameOfLife/main')),
 };
 
